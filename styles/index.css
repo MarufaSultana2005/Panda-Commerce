@@ -13,8 +13,9 @@ nav {
 }
 
 .logo {
-    width: auto;
-    height: 40px;
+    width: 180px;
+    height: auto;
+    margin-left: 50px;
 }
 
 .search_bar {
@@ -23,7 +24,7 @@ nav {
     border-radius: 65px;
     border: none;
     width: 500px;
-    height: 40px;
+    height: 28px;
     padding: 12px 28px;
     background-image: url(../images/search.png);
     background-repeat: no-repeat;
@@ -51,4 +52,68 @@ a {
     font-weight: 500;
     text-decoration: none;
     color: rgb(112, 112, 112);
+}
+
+/* Banner Styles */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    width: 1200px;
+    height: 450px;
+    background-color: rgb(254, 234, 233);
+    padding: 25px 80px 25px 60px;
+    border-radius: 20px;
+}
+
+.banner_title {
+    font-family: "Poppins", sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    color: rgb(31, 31, 31);
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.banner_description {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(78, 78, 78);
+    line-height: 26px;
+    width: 455px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.banner_price {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: rgb(255, 19, 111);
+}
+
+.banner_button {
+    width: 170px;
+    height: 50px;
+    padding: 16px 28px 16px 28px;
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.banner_image {
+    width: 400px;
+    height: 410px;
+    margin-bottom: 0;
 }
